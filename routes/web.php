@@ -19,3 +19,4 @@ Route::get('/produk/{slug?}', function ($slug="semua-produk") {
 });
 
 Route::get('/Mahasiswa',[MahasiswaController::class,'index'] );
+Route::get('/Profile',[MahasiswaController::class,'Pp'] );

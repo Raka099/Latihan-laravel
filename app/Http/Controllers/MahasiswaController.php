@@ -10,4 +10,9 @@ class MahasiswaController extends Controller
     {
         return "ini halaman data mahasiswa";
     }
+
+    public function Pp()
+    {
+        return "Ini profile mahasiswa";
+    }
 }
